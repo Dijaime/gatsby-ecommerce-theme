@@ -1,0 +1,68 @@
+.root {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.formContainer {
+  background: #fff;
+  max-width: 420px;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 20px;
+}
+
+.progress {
+  background: #e4edf2;
+  border-radius: 10px;
+  height: 8px;
+  margin-bottom: 20px;
+}
+
+.progressBar {
+  background: #0b7285;
+  height: 100%;
+  border-radius: 10px;
+  transition: width 0.3s;
+}
+
+.inputRow {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputRow label {
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.inputRow input,
+.inputRow select,
+.inputRow textarea {
+  padding: 8px 9px;
+  border: 1px solid #cfd9de;
+  border-radius: 6px;
+  background: #f7fafc;
+}
+
+.error {
+  color: #e74c3c;
+  font-size: 0.9rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.note {
+  background: #fffbe6;
+  border: 1px solid #ffeaaa;
+  padding: 8px 10px;
+  margin-top: 10px;
+  border-radius: 6px;
+  color: #a6760b;
+}
